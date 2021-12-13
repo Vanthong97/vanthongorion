@@ -1,0 +1,86 @@
+* {
+	background-color: none;
+}
+#resume {
+	background-color: #1abc9c;
+	text-align: center;
+	padding: 80px;
+	margin: 0;
+}	
+nav {
+	background-color: #333;
+	overflow: hidden;
+}
+nav a {
+	text-align: center;
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 14px 20px;
+}
+nav a:hover {
+	background-color: #DDD;
+	color: black;
+}
+.left_menu {
+	float: left;
+}
+.right_menu {
+	float: right;
+}
+#flex-container {
+	display: flex;
+	flex-wrap: nowrap;
+}
+#left_side {
+	flex: 30%;
+	padding: 10px 20px;
+	background-color: #f1f1f1 ;
+}
+#right_side {
+	flex: 70%;
+	padding: 10px 20px;
+}
+footer {
+	background-color: #333;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+}
+footer a {
+	color: white;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+th {
+	background-color: #04AA6D;
+	color: white;
+}
+@media screen and (max-width: 800px) {
+	#left_side {
+		flex: 100%;
+	}
+	#right_side {
+		flex: 100%;
+	}
+	#flex-container {
+		flex-wrap: wrap;
+	}
+}
+@media screen and (max-width: 400px) {
+	#left_side {
+		flex: 100%;
+	}
+	#right_side {
+		flex: 100%;
+	}
+	#flex-container {
+		flex-wrap: wrap;
+	}
+}
